@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayByTwo",
+            "request": "launch",
+            "mainClass": "ArrayByTwo",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySort",
+            "request": "launch",
+            "mainClass": "ArraySort",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch BasicPattern",
+            "request": "launch",
+            "mainClass": "BasicPattern",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch CatchBigAndSmall",
+            "request": "launch",
+            "mainClass": "CatchBigAndSmall",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileHandling",
+            "request": "launch",
+            "mainClass": "FileHandling",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multi",
+            "request": "launch",
+            "mainClass": "Multi",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddOrEven",
+            "request": "launch",
+            "mainClass": "OddOrEven",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintGreatestNum",
+            "request": "launch",
+            "mainClass": "PrintGreatestNum",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Vacation_79fbb3ca"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfArray",
+            "request": "launch",
+            "mainClass": "SumOfArray",
+            "projectName": "Vacation_79fbb3ca"
+        }
+    ]
+}
