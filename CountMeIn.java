@@ -25,7 +25,10 @@ public class CountMeIn {
             }
         }
 
-        int maxIndex = 0; // I check kung kinsa most frequent
+        System.out.println(charList);
+        System.out.println(countList);
+
+        int maxIndex = 0;
         for (int i = 1; i < countList.size(); i++) {
             if (countList.get(i) > countList.get(maxIndex)) {
                 maxIndex = i;
