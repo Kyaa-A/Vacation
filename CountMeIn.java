@@ -1,24 +1,41 @@
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class CountMeIn {
     public static void main(String[] args) {
 
-        String word = "aaaBbbbBBBbcc";
-        String outcome = word.toLowerCase();
+        Scanner scan = new Scanner(System.in);
 
-        System.out.println(outcome);
+        ArrayList<Character> charList = new ArrayList<>();
+        ArrayList<Integer> countList = new ArrayList<>();
 
-        ArrayList<Character> alphabet = new ArrayList<>();
-        
+        System.out.print("Sample Input: ");
+        String input = scan.nextLine();
+        String inputLowerCase = input.toLowerCase();
 
-        for (int i = 0; i < outcome.length(); i++) {
-            for (int j = 0; j < outcome.length(); j++) {
-                if (outcome.charAt(i) != alphabet.get(i)) {
-                    alphabet.add(outcome.charAt(i));
-                }
+        for (int i = 0; i < inputLowerCase.length(); i++) {
+            char c = inputLowerCase.charAt(i);
+
+            int index = charList.indexOf(c);
+            if (index >= 0) {
+                countList.set(index, countList.get(index) + 1);
+            } else {
+                charList.add(c);
+                countList.add(1);
             }
         }
-        System.out.println(alphabet);
+
+        int maxIndex = 0; // I check kung kinsa most frequent
+        for (int i = 1; i < countList.size(); i++) {
+            if (countList.get(i) > countList.get(maxIndex)) {
+                maxIndex = i;
+            }
+        }
+
+        char maxChar = charList.get(maxIndex);
+
+        String maxCharString = Character.toString(maxChar);
+        System.out.println("Sample output: " + maxCharString);
 
     }
 }
